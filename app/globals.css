@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Sail&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #e8eef1;
+}
+
+.header {
+  background: linear-gradient(to right,#C1C3C4,#ACAAAB)
+}
+
+/* Action */
+
+.action {
+  width: 90%;
+  margin-inline: auto
+}
+
+.card {
+  @apply mb-5 block rounded-lg border-x-gray-200 shadow-md
+}
+
+.built {
+  font-size: 0.6em;
+  color: #eee;
+}
+
+.about {
+  background-color: #1e3d58;
+  color: #ffffff;
+}
+
+.sails-text {
+  font-family: "Sail", cursive;
+  color: #1e3d58;
+}
+
+.underline {
+  height: 1px;
+  width: 100%;
+  background-color: #bebebe;
+  margin-bottom: 1.25rem;
+}
+
+.empty--cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+
+}
+
+.footer {
+  background-color: #43b0f1;
+}
